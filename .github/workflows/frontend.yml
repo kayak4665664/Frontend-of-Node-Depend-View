@@ -69,7 +69,7 @@ jobs:
         git config --global user.name 'kayak4665664'
         git config --global user.email '44232222+kayak4665664@users.noreply.github.com'
         git add public/
-        git commit -m "Update frontend"
+        git commit -m "Update frontend [skip ci]"
         git push https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/kayak4665664/Node-Depend-View.git
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
